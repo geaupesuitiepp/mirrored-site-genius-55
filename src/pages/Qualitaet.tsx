@@ -206,18 +206,18 @@ const Qualitaet = () => {
       </section>
 
       {/* Bottom badges + CTA */}
-      <section className="section-padding bg-secondary">
+      <section className="section-padding bg-nordic-gradient">
         <div className="container text-center">
           <div className="flex flex-wrap justify-center gap-8 mb-12">
             {["Nach Herstellervorgaben geprüft", "4mm Mindestprofil garantiert", "Professionell aufbereitet", "Garantie inklusive"].map((badge) => (
               <div key={badge} className="flex items-center gap-2">
                 <CheckCircle2 className="h-5 w-5 text-accent" />
-                <span className="font-semibold">{badge}</span>
+                <span className="font-semibold text-primary-foreground">{badge}</span>
               </div>
             ))}
           </div>
-          <h2 className="text-3xl font-bold mb-6">Kaufen Sie mit Vertrauen!</h2>
-          <Link to="/fahrzeuge" className="inline-flex items-center gap-2 bg-primary text-primary-foreground hover:bg-primary/90 h-11 rounded-md px-8 text-sm font-medium transition-colors">
+          <h2 className="text-3xl font-bold mb-6 text-primary-foreground">Kaufen Sie mit Vertrauen!</h2>
+          <Link to="/fahrzeuge" className="inline-flex items-center gap-2 bg-accent text-accent-foreground hover:bg-accent/90 h-11 rounded-md px-8 text-sm font-medium transition-colors">
             Fahrzeuge ansehen <ArrowRight className="h-5 w-5" />
           </Link>
         </div>
