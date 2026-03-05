@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
+import nordicLogo from "@/assets/nordic-logo.png";
 
 const Footer = () => {
   return (
