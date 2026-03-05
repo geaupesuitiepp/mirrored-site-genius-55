@@ -17,13 +17,8 @@ const Navbar = () => {
   return (
     <header className="bg-nordic-gradient sticky top-0 z-50">
       <div className="container flex items-center justify-between h-16">
-        <Link to="/" className="flex items-center gap-2">
-          <span className="text-2xl font-extrabold tracking-[0.15em] text-primary-foreground font-sans">
-            NORDIC
-          </span>
-          <span className="text-[10px] tracking-[0.3em] text-primary-foreground/70 uppercase -ml-1 mt-3 font-sans">
-            AUTOMOBILE
-          </span>
+        <Link to="/" className="flex items-center">
+          <img src={nordicLogo} alt="Nordic Automobile" className="h-10" />
         </Link>
 
         {/* Desktop Nav */}
