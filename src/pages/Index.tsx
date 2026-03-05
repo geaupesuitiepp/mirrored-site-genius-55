@@ -95,19 +95,19 @@ const Index = () => {
             ))}
           </div>
 
-          <div className="mt-16 pt-12 border-t border-border">
+          <div className="mt-16 bg-nordic-gradient rounded-2xl p-12">
             <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
               <div className="flex items-center gap-3">
-                <CheckCircle className="h-6 w-6 text-primary" />
-                <span className="font-semibold text-foreground">B2B &amp; Privat</span>
+                <CheckCircle className="h-6 w-6 text-accent" />
+                <span className="font-semibold text-primary-foreground">B2B &amp; Privat</span>
               </div>
               <div className="flex items-center gap-3">
-                <Star className="h-6 w-6 text-primary fill-primary" />
-                <span className="font-semibold text-foreground">Zufriedene Kunden</span>
+                <Star className="h-6 w-6 text-accent fill-accent" />
+                <span className="font-semibold text-primary-foreground">Zufriedene Kunden</span>
               </div>
               <div className="flex items-center gap-3">
-                <Shield className="h-6 w-6 text-primary" />
-                <span className="font-semibold text-foreground">Sichere Abwicklung</span>
+                <Shield className="h-6 w-6 text-accent" />
+                <span className="font-semibold text-primary-foreground">Sichere Abwicklung</span>
               </div>
             </div>
           </div>
