@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
+import nordicLogo from "@/assets/nordic-logo.png";
 
 const Footer = () => {
   return (
@@ -9,12 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <Link to="/" className="inline-block mb-4">
-              <span className="text-2xl font-extrabold tracking-[0.15em] text-primary-foreground font-sans">
-                NORDIC
-              </span>
-              <span className="block text-[10px] tracking-[0.3em] text-primary-foreground/70 uppercase font-sans">
-                AUTOMOBILE
-              </span>
+              <img src={nordicLogo} alt="Nordic Automobile" className="h-12" />
             </Link>
             <p className="text-sm text-primary-foreground/70 leading-relaxed">
               Ihr zuverlässiger Partner für geprüfte Gebrauchtwagen in Hamburg und deutschlandweit.

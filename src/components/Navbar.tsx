@@ -19,7 +19,7 @@ const Navbar = () => {
     <header className="bg-nordic-gradient sticky top-0 z-50">
       <div className="container flex items-center justify-between h-16">
         <Link to="/" className="flex items-center">
-          <img src={nordicLogo} alt="Nordic Automobile" className="h-10" />
+          <img src={nordicLogo} alt="Nordic Automobile" className="h-14" />
         </Link>
 
         {/* Desktop Nav */}
