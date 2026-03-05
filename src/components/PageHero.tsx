@@ -6,7 +6,7 @@ interface PageHeroProps {
 
 const PageHero = ({ title, description, children }: PageHeroProps) => {
   return (
-    <section className="bg-nordic-gradient py-20">
+    <section className="bg-nordic-gradient py-28">
       <div className="container">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-5xl font-extrabold text-primary-foreground mb-6">
