@@ -96,11 +96,11 @@ const SoFunktionierts = () => {
           </div>
 
           {/* Bottom badges */}
-          <div className="mt-20 pt-12 border-t border-border flex flex-wrap justify-center gap-8">
+          <div className="mt-20 bg-nordic-gradient rounded-2xl p-12 flex flex-wrap justify-center gap-8">
             {["21-Tage-Geld-zurück-Garantie", "1 Jahr Garantie kostenlos", "Geprüft und aufbereitet"].map((badge) => (
               <div key={badge} className="flex items-center gap-2">
                 <CheckCircle className="h-5 w-5 text-accent" />
-                <span className="font-semibold text-foreground">{badge}</span>
+                <span className="font-semibold text-primary-foreground">{badge}</span>
               </div>
             ))}
           </div>
