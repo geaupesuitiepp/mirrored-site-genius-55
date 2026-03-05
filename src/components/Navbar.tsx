@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <header className="bg-nordic-gradient sticky top-0 z-50">
-      <div className="container flex items-center justify-between h-16">
+      <div className="container flex items-center justify-between h-20">
         <Link to="/" className="flex items-center">
           <img src={nordicLogo} alt="Nordic Automobile" className="h-14" />
         </Link>
