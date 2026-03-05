@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { Phone, Menu, X } from "lucide-react";
 import { useState } from "react";
+import nordicLogo from "@/assets/nordic-logo.png";
 
 const navLinks = [
   { label: "Auto kaufen", href: "/fahrzeuge" },
