@@ -23,29 +23,31 @@ const faqItems = [
   { q: "Zu welchen Zeiten erfolgt die Lieferung?", a: "Die Lieferung erfolgt in der Regel werktags zwischen 8:00 und 18:00 Uhr. Den genauen Zeitpunkt stimmen wir individuell mit Ihnen ab." },
   { q: "Was muss ich zur Übergabe mitbringen?", a: "Bitte halten Sie einen gültigen Personalausweis oder Reisepass sowie den Zahlungsnachweis bereit." },
   { q: "Wie funktioniert die 21-Tage Geld-zurück-Garantie?", a: "Innerhalb von 21 Tagen nach Übergabe können Sie das Fahrzeug ohne Angabe von Gründen zurückgeben. Wir holen es kostenlos ab und erstatten den Kaufpreis abzüglich der Kilometerpauschale." },
-  { q: "Was ist der Unterschied zwischen Nordic Garantie und Premium Garantie?", a: "Die Nordic Garantie (1 Jahr/10.000 km) deckt die wichtigsten Komponenten ab. Die Premium Garantie (3 Jahre/60.000 km) bietet erweiterten Schutz inklusive Verschleißteile und Mobilitätsgarantie." },
+  { q: "Was ist der Unterschied zwischen Nordic Garantie und Premium Garantie?", a: "Die Nordic Garantie (1 Jahr/10.000 km) deckt Motor sowie Schalt- und Automatikgetriebe ab. Die Premium Garantie (3 Jahre/60.000 km) bietet erweiterten Schutz für viele weitere Komponenten wie Kraftübertragung, Lenkung, Bremsen, Klimaanlage, Elektronik und mehr – ohne Selbstbeteiligung." },
   { q: "Welche Mängel berechtigen zur kostenlosen Rückgabe?", a: "Jede Abweichung vom vertraglich vereinbarten Zustand berechtigt zur kostenlosen Rückgabe – ohne Kilometerabzug." },
   { q: "Wann beginnt die Garantie und wann endet sie?", a: "Die Garantie beginnt mit der Fahrzeugübergabe und läuft je nach Paket 1 oder 3 Jahre." },
   { q: "Welche Garantiepakete und Leistungen gibt es?", a: "Wir bieten die Nordic Garantie (inklusive) und die Premium Garantie (optional) an. Details finden Sie in der Vergleichstabelle oben." },
-  { q: "Was ist von der Garantie ausgeschlossen?", a: "Verschleißbedingte Abnutzung (bei Basispaket), Unfallschäden und unsachgemäße Nutzung." },
-  { q: "Wohin soll ich gehen, wenn mein Auto repariert werden muss?", a: "Sie können jede qualifizierte Fachwerkstatt aufsuchen. Die Kosten werden direkt mit uns abgerechnet." },
-  { q: "Gilt die Garantie auch außerhalb Deutschlands?", a: "Ja, die Garantie gilt EU-weit." },
+  { q: "Was ist von der Garantie ausgeschlossen?", a: "Normale Abnutzung, Unfallschäden, unsachgemäße Nutzung, nachträglich umgerüstete oder getunte Fahrzeuge sowie Schäden durch nicht durchgeführte Wartungen nach Herstellervorgaben." },
+  { q: "Wohin soll ich gehen, wenn mein Auto repariert werden muss?", a: "Kontaktieren Sie uns zuerst telefonisch oder per E-Mail. Wir verweisen Sie an eine Werkstatt in Ihrer Nähe. Nach Erhalt des Kostenvoranschlags prüft unser Team und sendet die Reparaturvereinbarung. Die Kosten werden direkt bezahlt oder innerhalb von 5 Werktagen erstattet." },
+  { q: "Gilt die Garantie auch außerhalb Deutschlands?", a: "Die Garantie gilt grundsätzlich in Deutschland. Bei vorübergehendem Aufenthalt im geographischen Europa (max. 6 Wochen) bleibt die Garantie bestehen." },
   { q: "Welche Kosten deckt die Garantie ab?", a: "Die Garantie deckt Material- und Arbeitskosten für die abgedeckten Komponenten." },
 ];
 
 const guaranteeComponents = [
   { name: "Motor", basis: true, premium: true },
   { name: "Schalt- und Automatikgetriebe", basis: true, premium: true },
-  { name: "Kraftübertragung", basis: true, premium: true },
-  { name: "Lenkung", basis: true, premium: true },
-  { name: "Bremsen", basis: true, premium: true },
-  { name: "Abgasanlage", basis: true, premium: true },
-  { name: "Sicherheitssystem", basis: true, premium: true },
-  { name: "Kraftstoffanlage", basis: true, premium: true },
-  { name: "Elektrische Anlage", basis: true, premium: true },
+  { name: "Kraftübertragung", basis: false, premium: true },
+  { name: "Lenkung", basis: false, premium: true },
+  { name: "Bremsen", basis: false, premium: true },
+  { name: "Abgasanlage", basis: false, premium: true },
+  { name: "Sicherheitssystem", basis: false, premium: true },
+  { name: "Kraftstoffanlage", basis: false, premium: true },
+  { name: "Elektrische Anlage", basis: false, premium: true },
   { name: "Komfortelektronik", basis: false, premium: true },
   { name: "Kühlsystem", basis: false, premium: true },
   { name: "Klimaanlage", basis: false, premium: true },
+  { name: "Hybridelektrofahrzeug", basis: false, premium: true },
+  { name: "Batterieelektrofahrzeug", basis: false, premium: true },
 ];
 
 const LieferungGarantie = () => {
@@ -211,7 +213,7 @@ const LieferungGarantie = () => {
               <h3 className="text-xl font-bold font-sans mb-1">Premium Garantie</h3>
               <p className="text-muted-foreground mb-6">3 Jahre oder 60.000 km</p>
               <ul className="space-y-3">
-                {["Erweiterter Komponentenschutz", "Inklusive Verschleißteile", "Mobilitätsgarantie inklusive", "Prioritärer Kundenservice"].map((item) => (
+                {["Erweiterter Komponentenschutz", "Ohne Selbstbeteiligung", "100% Kostenerstattung", "Erstattung innerhalb von 5 Werktagen"].map((item) => (
                   <li key={item} className="flex items-center gap-2 text-sm">
                     <CheckCircle2 className="h-4 w-4 text-accent shrink-0" />
                     {item}
