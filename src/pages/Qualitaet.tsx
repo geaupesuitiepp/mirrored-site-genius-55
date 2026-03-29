@@ -5,7 +5,7 @@ import { CheckCircle2, Wrench, Eye, Gauge, Sparkles, ArrowRight } from "lucide-r
 import workshopInspection from "@/assets/workshop-inspection.jpg";
 import tireInspection from "@/assets/reifen-profil.png";
 import carPreparation from "@/assets/car-preparation.png";
-import conditionDoc from "@/assets/condition-documentation.jpg";
+import conditionDoc from "@/assets/condition-documentation.png";
 import {
   Accordion,
   AccordionContent,
