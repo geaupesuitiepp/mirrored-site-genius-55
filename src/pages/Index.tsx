@@ -1,17 +1,8 @@
 import Layout from "@/components/Layout";
 import { Link } from "react-router-dom";
 import { ArrowRight, Shield, RotateCcw, Truck, Headphones, CheckCircle, Star, Search } from "lucide-react";
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 
 const Index = () => {
-  const [searchQuery, setSearchQuery] = useState("");
-  const navigate = useNavigate();
-
-  const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault();
-    navigate(`/fahrzeuge?q=${encodeURIComponent(searchQuery)}`);
-  };
 
   return (
     <Layout>
@@ -31,23 +22,6 @@ const Index = () => {
               Nordic-Automobile – Ihr zuverlässiger Partner für Gebrauchtwagen. Für Privat- und Geschäftskunden in Hamburg und deutschlandweit.
             </p>
 
-            <form onSubmit={handleSearch} className="max-w-2xl mx-auto mb-8 relative">
-              <div className="relative">
-                <input
-                  type="text"
-                  placeholder="Suche nach Marke, Modell oder Stichwort..."
-                  className="w-full px-6 py-4 pr-14 rounded-lg text-foreground bg-card shadow-xl focus:outline-none focus:ring-2 focus:ring-accent text-lg"
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                />
-                <button
-                  type="submit"
-                  className="absolute right-2 top-1/2 -translate-y-1/2 bg-accent hover:bg-accent/90 text-accent-foreground p-3 rounded-lg transition-colors"
-                >
-                  <Search className="h-5 w-5" />
-                </button>
-              </div>
-            </form>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <Link to="/fahrzeuge" className="btn-hero inline-flex items-center justify-center gap-2">
