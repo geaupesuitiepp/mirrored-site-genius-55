@@ -36,7 +36,7 @@ const techChecks = [
 ];
 
 const faqItems = [
-  { q: "Wem gehören die Autos von Nordic?", a: "Alle angebotenen Fahrzeuge sind Eigentum der Nordic-Automobile cnr GmbH. Wir kaufen, prüfen und verkaufen ausschließlich aus eigenem Bestand." },
+  { q: "Wem gehören die Autos von Nordic?", a: "Alle angebotenen Fahrzeuge sind Eigentum der Nordic-Automobile GmbH. Wir kaufen, prüfen und verkaufen ausschließlich aus eigenem Bestand." },
   { q: "Gibt es Garantie auf einen Gebrauchtwagen?", a: "Ja, jedes Fahrzeug wird mit der Nordic Garantie (1 Jahr / 10.000 km) ausgeliefert. Optional bieten wir eine Premium Garantie an." },
   { q: "Was bedeutet die 4mm Mindestprofiltiefe?", a: "Wir garantieren, dass alle Reifen bei Übergabe mindestens 4mm Restprofil haben. Liegt die Profiltiefe darunter, werden die Reifen kostenlos ersetzt." },
   { q: "Wie bin ich abgesichert, wenn ich bei Nordic ein Auto kaufe?", a: "Sie erhalten die Nordic Garantie, 21 Tage Geld-zurück-Garantie und alle Fahrzeuge sind technisch geprüft und aufbereitet." },
