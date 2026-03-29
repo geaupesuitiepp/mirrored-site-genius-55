@@ -2,7 +2,7 @@ import Layout from "@/components/Layout";
 import PageHero from "@/components/PageHero";
 import { Link } from "react-router-dom";
 import { CheckCircle2, Wrench, Eye, Gauge, Sparkles, ArrowRight } from "lucide-react";
-import workshopInspection from "@/assets/workshop-inspection.jpg";
+import workshopInspection from "@/assets/workshop-inspection.png";
 import tireInspection from "@/assets/reifen-profil.png";
 import carPreparation from "@/assets/car-preparation.png";
 import conditionDoc from "@/assets/condition-documentation.png";
