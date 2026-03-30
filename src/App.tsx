@@ -35,6 +35,7 @@ const App = () => (
           <Route path="/datenschutz" element={<Datenschutz />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <CookieConsent />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
