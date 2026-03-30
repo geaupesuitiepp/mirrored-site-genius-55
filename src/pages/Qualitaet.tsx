@@ -17,7 +17,7 @@ const promises = [
   "Alle angebotenen Autos sind aus unserem eigenen Bestand",
   "Jedes Fahrzeug wird von unseren KFZ-Experten geprüft & rundum aufbereitet",
   "Garantie inklusive",
-  "21 Tage Geld-Zurück-Garantie bei Nichtgefallen",
+  "30 Tage Geld-Zurück-Garantie bei Nichtgefallen",
   "Mindestens 100 Tage service-frei bei der Auslieferung",
   "Mindestprofiltiefe von 4mm für alle Reifen garantiert",
 ];
@@ -39,7 +39,7 @@ const faqItems = [
   
   { q: "Gibt es Garantie auf einen Gebrauchtwagen?", a: "Ja, jedes Fahrzeug wird mit der Nordic Garantie (1 Jahr / 10.000 km) ausgeliefert. Optional bieten wir eine Premium Garantie an." },
   { q: "Was bedeutet die 4mm Mindestprofiltiefe?", a: "Wir garantieren, dass alle Reifen bei Übergabe mindestens 4mm Restprofil haben. Liegt die Profiltiefe darunter, werden die Reifen kostenlos ersetzt." },
-  { q: "Wie bin ich abgesichert, wenn ich bei Nordic ein Auto kaufe?", a: "Sie erhalten die Nordic Garantie, 21 Tage Geld-zurück-Garantie und alle Fahrzeuge sind technisch geprüft und aufbereitet." },
+  { q: "Wie bin ich abgesichert, wenn ich bei Nordic ein Auto kaufe?", a: "Sie erhalten die Nordic Garantie, 30 Tage Geld-zurück-Garantie und alle Fahrzeuge sind technisch geprüft und aufbereitet." },
 ];
 
 const Qualitaet = () => {

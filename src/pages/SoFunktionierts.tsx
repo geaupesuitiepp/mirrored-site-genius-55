@@ -22,7 +22,7 @@ const steps = [
     title: "Vertragsunterschrift & Bezahlung",
     subtitle: "Transparent, sicher und flexibel",
     description: "Nach der Fahrzeugauswahl erstellen wir einen detaillierten Kaufvertrag mit allen vereinbarten Konditionen – inklusive Fahrzeugzustand, Garantieleistungen und Rückgaberecht. Keine versteckten Gebühren – der Vertragspreis ist der Endpreis.",
-    badges: ["Vertragsunterschrift", "21-Tage Geld-zurück-Garantie im Vertrag"],
+    badges: ["Vertragsunterschrift", "30-Tage Geld-zurück-Garantie im Vertrag"],
     image: stepContract,
   },
   {
@@ -39,8 +39,8 @@ const steps = [
     icon: ThumbsUp,
     title: "Zufriedenheit",
     subtitle: "Nur wenn Sie glücklich sind, haben wir einen Deal",
-    description: "Wir wollen sicherstellen, dass Sie mit Ihrem neuen Auto ein ideales Erlebnis haben. Wir sind immer bereit, Sie zu unterstützen. Mit unserer Geld-zurück-Garantie können Sie Ihr Auto 21 Tage lang testen und richtig kennenlernen.",
-    badges: ["Garantie inklusive", "21 Tage Geld-zurück-Garantie"],
+    description: "Wir wollen sicherstellen, dass Sie mit Ihrem neuen Auto ein ideales Erlebnis haben. Wir sind immer bereit, Sie zu unterstützen. Mit unserer Geld-zurück-Garantie können Sie Ihr Auto 30 Tage lang testen und richtig kennenlernen.",
+    badges: ["Garantie inklusive", "30 Tage Geld-zurück-Garantie"],
     image: stepSatisfaction,
   },
 ];
@@ -97,7 +97,7 @@ const SoFunktionierts = () => {
 
           {/* Bottom badges */}
           <div className="mt-20 bg-nordic-gradient rounded-2xl p-12 flex flex-wrap justify-center gap-8">
-            {["21-Tage-Geld-zurück-Garantie", "1 Jahr Garantie kostenlos", "Geprüft und aufbereitet"].map((badge) => (
+            {["30-Tage-Geld-zurück-Garantie", "1 Jahr Garantie kostenlos", "Geprüft und aufbereitet"].map((badge) => (
               <div key={badge} className="flex items-center gap-2">
                 <CheckCircle className="h-5 w-5 text-accent" />
                 <span className="font-semibold text-primary-foreground">{badge}</span>
