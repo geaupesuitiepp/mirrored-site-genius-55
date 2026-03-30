@@ -36,7 +36,7 @@ const Impressum = () => {
                 <p className="text-foreground/80">
                   Eintragung im Handelsregister.<br />
                   Registergericht: Amtsgericht Hamburg<br />
-                  Registernummer: [Registernummer einfügen]
+                  Registernummer: HRB 165545
                 </p>
               </section>
 
