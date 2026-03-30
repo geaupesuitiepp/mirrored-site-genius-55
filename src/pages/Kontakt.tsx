@@ -57,7 +57,6 @@ const Kontakt = () => {
                 </p>
               </div>
             </div>
-          </div>
 
           {/* Map */}
           <div className="mt-12">
