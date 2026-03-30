@@ -2,7 +2,7 @@ import Layout from "@/components/Layout";
 import PageHero from "@/components/PageHero";
 import { Link } from "react-router-dom";
 import { Wrench, CheckCircle2, Truck as TruckIcon, Package, Shield, ArrowRight, Check, X, Clock, FileText, CreditCard } from "lucide-react";
-import carTransport from "@/assets/car-transport.jpg";
+import carTransport from "@/assets/car-transport.png";
 import {
   Accordion,
   AccordionContent,
