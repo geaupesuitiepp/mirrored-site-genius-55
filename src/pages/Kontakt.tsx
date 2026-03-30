@@ -19,7 +19,7 @@ const Kontakt = () => {
                   {
                     icon: MapPin,
                     title: "Adresse",
-                    content: <p className="text-muted-foreground">Nordic-Automobile cnr GmbH<br />Ellernreihe 59<br />D-22179 Hamburg</p>,
+                    content: <p className="text-muted-foreground">Nordic-Automobile cnr GmbH<br />Ellernreihe 59<br />content: <p className="text-muted-foreground">Nordic-Automobile cnr GmbH<br />Ellernreihe 59<br />22179 Hamburg</p>,</p>,
                   },
                   {
                     icon: Phone,

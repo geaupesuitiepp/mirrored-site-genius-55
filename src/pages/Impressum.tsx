@@ -53,7 +53,7 @@ const Impressum = () => {
                 <p className="text-foreground/80">
                   Szymon Mateusz Lenart<br />
                   Ellernreihe 59<br />
-                  D-22179 Hamburg
+                  22179 Hamburg
                 </p>
               </section>
 
