@@ -22,7 +22,7 @@ const cities = ["Hamburg", "Berlin", "München", "Köln", "Frankfurt", "Stuttgar
 const faqItems = [
   { q: "Zu welchen Zeiten erfolgt die Lieferung?", a: "Die Lieferung erfolgt in der Regel werktags zwischen 8:00 und 18:00 Uhr. Den genauen Zeitpunkt stimmen wir individuell mit Ihnen ab." },
   { q: "Was muss ich zur Übergabe mitbringen?", a: "Bitte halten Sie einen gültigen Personalausweis oder Reisepass sowie den Zahlungsnachweis bereit." },
-  { q: "Wie funktioniert die 21-Tage Geld-zurück-Garantie?", a: "Innerhalb von 21 Tagen nach Übergabe können Sie das Fahrzeug ohne Angabe von Gründen zurückgeben. Wir holen es kostenlos ab und erstatten den Kaufpreis abzüglich der Kilometerpauschale." },
+  { q: "Wie funktioniert die 30-Tage Geld-zurück-Garantie?", a: "Innerhalb von 30 Tagen nach Übergabe können Sie das Fahrzeug ohne Angabe von Gründen zurückgeben. Wir holen es kostenlos ab und erstatten den Kaufpreis abzüglich der Kilometerpauschale." },
   { q: "Was ist der Unterschied zwischen Nordic Garantie und Premium Garantie?", a: "Die Nordic Garantie (1 Jahr/10.000 km) deckt Motor sowie Schalt- und Automatikgetriebe ab. Die Premium Garantie (3 Jahre/60.000 km) bietet erweiterten Schutz für viele weitere Komponenten wie Kraftübertragung, Lenkung, Bremsen, Klimaanlage, Elektronik und mehr – ohne Selbstbeteiligung." },
   { q: "Welche Mängel berechtigen zur kostenlosen Rückgabe?", a: "Jede Abweichung vom vertraglich vereinbarten Zustand berechtigt zur kostenlosen Rückgabe – ohne Kilometerabzug." },
   { q: "Wann beginnt die Garantie und wann endet sie?", a: "Die Garantie beginnt mit der Fahrzeugübergabe und läuft je nach Paket 1 oder 3 Jahre." },
@@ -99,16 +99,16 @@ const LieferungGarantie = () => {
         </div>
       </section>
 
-      {/* 21-Tage Garantie */}
+      {/* 30-Tage Garantie */}
       <section className="section-padding">
         <div className="container">
           <div className="text-center mb-4">
             <span className="inline-block px-4 py-1 bg-accent/10 text-accent rounded-full text-sm font-semibold mb-4">
-              21 Tage Rückgaberecht
+              30 Tage Rückgaberecht
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">21-Tage Geld-zurück-Garantie</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">30-Tage Geld-zurück-Garantie</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Testen Sie Ihr neues Fahrzeug in Ruhe. Innerhalb von 21 Tagen können Sie es zurückgeben – mit fairer Kilometer-Abrechnung.
+              Testen Sie Ihr neues Fahrzeug in Ruhe. Innerhalb von 30 Tagen können Sie es zurückgeben – mit fairer Kilometer-Abrechnung.
             </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12">
@@ -116,7 +116,7 @@ const LieferungGarantie = () => {
               <h3 className="text-xl font-bold mb-6 font-sans">So funktioniert's</h3>
               <ul className="space-y-4">
                 {[
-                  "21 Tage Bedenkzeit nach Fahrzeugübergabe",
+                  "30 Tage Bedenkzeit nach Fahrzeugübergabe",
                   "Rückgabe ohne Angabe von Gründen möglich",
                   "Kostenlose Abholung bei Ihnen zu Hause",
                   "Rückerstattung innerhalb von 5 Werktagen",
@@ -312,7 +312,7 @@ const LieferungGarantie = () => {
             Sicher kaufen – rundum geschützt
           </h2>
           <p className="text-primary-foreground/80 max-w-2xl mx-auto mb-8">
-            21 Tage Geld-zurück-Garantie, Nordic Garantie inklusive und optional Premium Garantie. Deutschlandweite Lieferung direkt zu Ihnen.
+            30 Tage Geld-zurück-Garantie, Nordic Garantie inklusive und optional Premium Garantie. Deutschlandweite Lieferung direkt zu Ihnen.
           </p>
           <Link to="/fahrzeuge" className="btn-hero inline-flex items-center gap-2">
             Fahrzeuge ansehen <ArrowRight className="h-5 w-5" />

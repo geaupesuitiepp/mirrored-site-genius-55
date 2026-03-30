@@ -49,7 +49,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { icon: Shield, title: "Geprüfte Qualität", desc: "Jedes Fahrzeug durchläuft eine umfassende Qualitätsprüfung mit über 200 Checkpunkten.", href: "/qualitaet" },
-              { icon: RotateCcw, title: "21-Tage Geld-zurück", desc: "Nicht zufrieden? Geben Sie das Fahrzeug innerhalb von 21 Tagen zurück – ohne Wenn und Aber.", href: "/lieferung-garantie" },
+              { icon: RotateCcw, title: "30-Tage Geld-zurück", desc: "Nicht zufrieden? Geben Sie das Fahrzeug innerhalb von 30 Tagen zurück – ohne Wenn und Aber.", href: "/lieferung-garantie" },
               { icon: Truck, title: "Lieferung deutschlandweit", desc: "Wir liefern Ihr Traumauto direkt vor Ihre Haustür – bequem und sicher.", href: "/lieferung-garantie" },
               { icon: Headphones, title: "Persönliche Beratung", desc: "Unsere Experten stehen Ihnen bei allen Fragen zur Seite – vor und nach dem Kauf.", href: "/kontakt" },
             ].map((item) => (
