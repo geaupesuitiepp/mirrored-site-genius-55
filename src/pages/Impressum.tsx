@@ -13,7 +13,7 @@ const Impressum = () => {
                 <p className="text-foreground/80">
                   Nordic-Automobile cnr GmbH<br />
                   Ellernreihe 59<br />
-                  D-22179 Hamburg<br />
+                  22179 Hamburg<br />
                   Deutschland
                 </p>
               </section>
@@ -53,7 +53,7 @@ const Impressum = () => {
                 <p className="text-foreground/80">
                   Szymon Mateusz Lenart<br />
                   Ellernreihe 59<br />
-                  D-22179 Hamburg
+                  22179 Hamburg
                 </p>
               </section>
 

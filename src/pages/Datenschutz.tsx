@@ -34,7 +34,7 @@ const Datenschutz = () => {
                 <p className="text-foreground/80 mt-4">
                   Nordic-Automobile cnr GmbH<br />
                   Ellernreihe 59<br />
-                  D-22179 Hamburg
+                  22179 Hamburg
                 </p>
                 <p className="text-foreground/80 mt-4">
                   Telefon: +49 40 85539775<br />
