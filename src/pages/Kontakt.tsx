@@ -33,6 +33,7 @@ const Kontakt = () => {
                         <br />
                         22179 Hamburg
                       </p>
+                    </p>
                   ),
                 },
                 {
