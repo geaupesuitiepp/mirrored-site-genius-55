@@ -37,7 +37,6 @@ const Datenschutz = () => {
                   22179 Hamburg
                 </p>
                 <p className="text-foreground/80 mt-4">
-                  Telefon: +49 40 85539775<br />
                   E-Mail: info@nordic-cars.net
                 </p>
                 <p className="text-foreground/80 mt-4">

@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { Phone, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import nordicLogo from "@/assets/nordic-logo.png";
 
@@ -40,13 +40,6 @@ const Navbar = () => {
         </nav>
 
         <div className="flex items-center gap-4">
-          <a
-            href="tel:+494085539775"
-            className="hidden md:flex items-center gap-2 text-primary-foreground/90 hover:text-primary-foreground text-sm font-medium"
-          >
-            <Phone className="h-4 w-4" />
-            +49 40 85539775
-          </a>
           <button
             className="lg:hidden text-primary-foreground"
             onClick={() => setMobileOpen(!mobileOpen)}
@@ -74,13 +67,6 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
-            <a
-              href="tel:+494085539775"
-              className="flex items-center gap-2 px-4 py-3 text-primary-foreground/90 text-sm font-medium"
-            >
-              <Phone className="h-4 w-4" />
-              +49 40 85539775
-            </a>
           </nav>
         </div>
       )}
