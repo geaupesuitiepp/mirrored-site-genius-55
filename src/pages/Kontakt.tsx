@@ -1,6 +1,6 @@
 import Layout from "@/components/Layout";
 import PageHero from "@/components/PageHero";
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Mail, Clock } from "lucide-react";
 
 const Kontakt = () => {
   return (
@@ -34,15 +34,6 @@ const Kontakt = () => {
                         22179 Hamburg
                       </p>
                     </p>
-                  ),
-                },
-                {
-                  icon: Phone,
-                  title: "Telefon",
-                  content: (
-                    <a href="tel:+494085539775" className="text-accent hover:underline">
-                      +49 40 85539775
-                    </a>
                   ),
                 },
                 {

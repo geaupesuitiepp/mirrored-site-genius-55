@@ -26,7 +26,6 @@ const Impressum = () => {
               <section>
                 <h2 className="text-2xl font-serif font-bold mb-4">Kontakt</h2>
                 <p className="text-foreground/80">
-                  Telefon: +49 40 85539775<br />
                   E-Mail: info@nordic-cars.net
                 </p>
               </section>
