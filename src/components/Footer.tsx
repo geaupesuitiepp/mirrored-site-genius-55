@@ -46,7 +46,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-sm text-primary-foreground/70">
                 <MapPin className="h-4 w-4 mt-0.5 shrink-0" />
-                <span>Nordic-Automobile cnr GmbH<br />Ellernreihe 59<br /><span>Nordic-Automobile cnr GmbH<br />Ellernreihe 59<br />22179 Hamburg</span></span>
+                <span>Nordic-Automobile cnr GmbH<br />Ellernreihe 59<br />22179 Hamburg</span>
               </li>
               <li>
                 <a href="tel:+494085539775" className="flex items-center gap-3 text-sm text-primary-foreground/70 hover:text-primary-foreground">
